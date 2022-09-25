@@ -66,7 +66,7 @@ function Post({ post }) {
                         className='h-10 w-10 rounded-full'
                         src={urlFor(post.author.image).url()} alt="" />
                     <p className='text-sm font-extralight'>
-                        Blog post by<span className='text-green-600'> {post.author.name}</span> - Published at  {date}
+                        Blog post by <span className='text-green-600'> {post.author.name}</span> - Published at  {date}
                     </p>
                 </div>
                 <div className='mt-10 space-y-6'>
